@@ -1,0 +1,19 @@
+.red-box {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.green-box {
+    background-color: #00FF00; 
+    color: black;
+}
+
+.blue-box {
+    background-color: rgb(0, 0, 255); 
+    color: white;
+}
+
+.yellow-box {
+    background-color: #FFFF00; 
+    color: black;
+}

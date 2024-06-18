@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resize</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #myImage {
+            width: 300px; 
+        }
+        button {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="resizeImage(300)">Set Width to 300</button>
+    <button onclick="resizeImage(500)">Set Width to 500</button>
+    <br><br>
+    <img id="myImage" src="./goa.jpg" alt="Image">
+
+    <script>
+        function resizeImage(width) {
+            document.getElementById('myImage').style.width = width + 'px';
+        }
+    </script>
+</body>
+</html>
